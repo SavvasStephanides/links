@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+  
+body{
+    background-color: #C2DED1;
+}
+
+header{
+    background-color: #354259;
+    display: flex;
+}
+  
+  header .page-name{
+    font-family: 'Pacifico', cursive;
+    font-size: 42px;
+    margin: auto;
+    color: white;
+  }
+  
+  section#socials ul.social-links{
+    list-style: none;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section#socials ul.social-links li a{
+    display: block;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
+  
+  section#links details{
+    display: block;
+  }
+  
+  section#links details summary{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    background-color: #CDC2AE;
+    
+  }
+
+  section#links details > summary::marker,
+  section#links details > summary::-webkit-details-marker{
+        display: none;
+}
+  
+  section#links details summary h3{
+    color: white;
+    margin: auto;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 27px;
+    color: black;
+  }
+  
+  section#links details ul li a{
+    display: block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 21px;
+    background-color: #ECE5C7;
+    
+  }
+  
+  .visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .tile{
+    height: 105px;
+  }
